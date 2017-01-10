@@ -5,8 +5,7 @@
 title: Laid Off Calgary
 description: |
   A safe space to process your lay off experience, stay motivated and be connected.
-owner:
-  name: Bianca Sinclair # or company name
+owner:Bianca Sinclair # or company name
   
 first_published: 2016 # if migrating another site, the year of your first publish
 email: laidoffcalgary@gmail.com
