@@ -47,6 +47,8 @@ social:
   #tripadvisor:
   #amazon:
 
+gems:
+  - jekyll-seo-tag
 # Build settings
 markdown: kramdown
 #sass:
