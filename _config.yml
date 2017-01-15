@@ -49,6 +49,7 @@ social:
 
 gems:
   - jekyll-seo-tag
+  - jekyll-sitemap
 # Build settings
 markdown: kramdown
 #sass:
