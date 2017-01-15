@@ -3,7 +3,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="google-site-verification" content="_HnEpD4onK4BziVe03DP8SrxGqMdaBaXSF0_RVuxg30" />
-  <meta name="google-site-verification" content="KkfPLEYjG3T7hJ0qk8FZQBZ_44C1QJ5oRo24OfoZ0mI" />
+  
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <!--[if lte IE 8]><script src="{{ "/js/ie/html5shiv.js" | prepend: site.baseurl }}"></script><![endif]-->
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
