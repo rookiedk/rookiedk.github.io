@@ -1914,3 +1914,7 @@ $baseurl: '{{ site.baseurl }}/images';
 	    padding: 2px 16px;
 	    color: white;
 	}
+
+.nodisplay {
+	display:none;
+}
