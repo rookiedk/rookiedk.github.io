@@ -1272,6 +1272,10 @@ $baseurl: '{{ site.baseurl }}/images';
 			@include wrapper(accent7);
 		}
 
+		&.style6 {
+			background-color: transparent;
+		}
+
 		@include breakpoint(medium) {
 			@include padding(4em, 3em);
 		}
@@ -1742,8 +1746,10 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 	}
 
+/* Infographic */
 /* Footer */
 
+	#infographic
 	#footer {
 		@include padding(6em, 0);
 		background-color: darken(_palette(bg), 8);
