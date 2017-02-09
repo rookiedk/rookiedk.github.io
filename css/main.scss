@@ -1256,6 +1256,10 @@ $baseurl: '{{ site.baseurl }}/images';
 			padding: 0;
 		}
 
+		&.style0 {
+			@include wrapper(accent8);
+		}
+
 		&.style1 {
 			@include wrapper(accent1);
 		}
