@@ -7,14 +7,22 @@
         <a href="#menu" class="menuToggle"><span>Menu</span></a>
         <div id="menu">
           <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html"><h1>Home</h1></a></li>
+            <li><h5>ABOUT OUR MEETINGS</h5>
+                <ul class="actions">
+                  <li><a href="aboutus.html"><i>A Helpful Guide</i></a></li>
+                  <li><a href="meetings.html"><i>Meeting Topics</i></a></li>
+                </ul>
+            </li>
+            <li><h5>ABOUT US</h5>
+                <ul class="actions">
+                  <li><a target="_blank" href="{{ site.baseurl }}/images/media.pdf"><i>Media Presence</i></a>
+                </ul>
+            </li>
+            <li><a href="credits.html"><h1>Credits</h1></a></li>
+            <li><a href="inspirations.html"><h1>INSPIRATIONS</h1></a></li>
+            <li><a href="resources.html"><h1>RESOURCES</h1></a></li>
 
-            <li><a href="resources.html">Resources</a></li>
-
-
-            <li><a href="credits.html">Credits</a></li>
-
-            <li><a href="aboutus.html">About Our Meetings</a></li>
             <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}"
                    class="icon fa-feed"> RSS Feed</a></li>
           </ul>
