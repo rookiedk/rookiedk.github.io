@@ -742,6 +742,9 @@ $baseurl: '{{ site.baseurl }}/images';
 
 /*Lisa's specifications*/
 .lisa {
+	img {
+		padding-left: 10em;
+	}
 	a {
 		color: CornflowerBlue;
 	}
