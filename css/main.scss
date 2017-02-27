@@ -742,9 +742,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 /*Lisa's specifications*/
 .lisa {
-	img {
-		padding-left: 10em;
-	}
+
 	a {
 		color: CornflowerBlue;
 	}
@@ -757,7 +755,12 @@ $baseurl: '{{ site.baseurl }}/images';
 			 list-style-type: circle;
 			 padding-left: 3em;
 	 }
-}
+
+
+
+
+
+	}
 
 /* Table */
 
