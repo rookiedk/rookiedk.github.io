@@ -738,6 +738,24 @@ $baseurl: '{{ site.baseurl }}/images';
 		margin: 0 0 _size(element-margin) 0;
 	}
 
+
+
+/*Lisa's specifications*/
+.lisa {
+	a {
+		color: CornflowerBlue;
+	}
+	ul {
+	 list-style: none;
+	 margin-left: 0;
+	 padding-left: 1em;
+	 }
+ ul.circle {
+			 list-style-type: circle;
+			 padding-left: 3em;
+	 }
+}
+
 /* Table */
 
 	.table-wrapper {
