@@ -54,3 +54,4 @@ gems:
 markdown: kramdown
 #sass:
 #  style: compressed
+google_analytics: UA-97503761-1
